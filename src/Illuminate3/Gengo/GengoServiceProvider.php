@@ -51,9 +51,6 @@ class GengoServiceProvider extends ServiceProvider {
 	/**
 	 * Register console commands gengo:languages
 	 *
-	 * @author Steve Montambeault
-	 * @link   http://stevemo.ca
-	 *
 	 * @return void
 	 */
 	public function registerLanguageSeedCommands()
