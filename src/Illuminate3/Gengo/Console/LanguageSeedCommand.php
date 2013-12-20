@@ -61,7 +61,7 @@ class LanguageSeedCommand extends Command {
 
 		DB::table('iso_language_translates')->truncate();
 
-		$csv = dirname(__FILE__) . '/seeds/' . 'iso_language_tranlates.csv';
+		$csv = dirname(__FILE__) . '/seeds/' . 'iso_language_translates.csv';
 		$file_handle = fopen($csv, "r");
 
 		while (!feof($file_handle)) {
