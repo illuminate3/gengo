@@ -7,27 +7,27 @@ use Illuminate\Support\Facades\DB;
 
 class LanguageSeedCommand extends Command {
 
-    /**
-    * The console command name.
-    *
-    * @var string
-    */
-    protected $name = 'gengo:languages';
+	/**
+	* The console command name.
+	*
+	* @var string
+	*/
+	protected $name = 'gengo:languages';
 
-    /**
-    * The console command description.
-    *
-    * @var string
-    */
-    protected $description = 'Seed the languages database with data';
+	/**
+	* The console command description.
+	*
+	* @var string
+	*/
+	protected $description = 'Seed the languages database with data';
 
-    /**
-     * Exceute the console command
-     *
-     * @return void
-     */
-    public function fire()
-    {
+	/**
+	 * Exceute the console command
+	 *
+	 * @return void
+	 */
+	public function fire()
+	{
 		$this->line('Welcome to the languages database seeder.');
 
 		DB::table('iso_languages')->truncate();
