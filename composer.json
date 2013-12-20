@@ -1,0 +1,25 @@
+{
+    "name": "illuminate3/gengo",
+    "type": "library",
+    "description": "User Gengo Management",
+    "keywords": ["laravel", "language", "iso-639", "select", "i18n"],
+    "homepage": "https://github.com/illuminate3/gengo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Illuminate3",
+            "email": "carsten.sapporo@gmail.com",
+            "homepage": "https://github.com/illuminate3/gengo",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Illuminate3\\Gengo": "src/"
+        }
+    }
+}
