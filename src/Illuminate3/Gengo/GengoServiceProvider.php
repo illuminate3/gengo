@@ -2,7 +2,6 @@
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate3\Gengo\Console\InstallCommand;
-use Illuminate3\Gengo\Console\UserSeedCommand;
 use Illuminate3\Gengo\Console\LanguageSeedCommand;
 
 class GengoServiceProvider extends ServiceProvider {
