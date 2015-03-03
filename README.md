@@ -17,6 +17,7 @@ Gengo
 Gengo is a list of 185 languages. Both ISO-639-1 and ISO-639-3 codes are included. 27 language translations have been added based
 on wikipedia's matrix and my own list of Japanese translations. All translations are saved to a mysql database.
 
+Laravel 4 only
 
 ## Version
 0.2.0
