@@ -1,7 +1,7 @@
 {
     "name": "illuminate3/gengo",
     "type": "library",
-    "description": "User Gengo Management",
+    "description": "mulitple languages in mysql format",
     "keywords": ["laravel", "language", "iso-639", "select", "i18n"],
     "homepage": "https://github.com/illuminate3/gengo",
     "license": "MIT",
